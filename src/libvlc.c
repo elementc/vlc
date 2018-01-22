@@ -84,6 +84,7 @@ libvlc_int_t * libvlc_InternalCreate( void )
 {
     libvlc_int_t *p_libvlc;
     libvlc_priv_t *priv;
+    printf("Casey Fixed Me!");
 
     /* Allocate a libvlc instance object */
     p_libvlc = (vlc_custom_create)( NULL, sizeof (*priv), "libvlc" );
